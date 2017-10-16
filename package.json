@@ -16,7 +16,9 @@
   "scripts": {
     "build": "babel lib -d build",
     "prepublish": "npm run build",
-    "build:watch": "babel lib -w -d build"
+    "build:watch": "babel lib -w -d build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Pramjeet Ahlawat <ahlawat.pramjeet@gmail.com>",
   "license": "MIT",
@@ -39,7 +41,14 @@
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "styled-jsx": "^2.0.1-beta.5"
+    "styled-jsx": "^2.0.1-beta.5",
+    "@storybook/react": "^3.2.12",
+    "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-links": "^3.2.12"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^15.x || ^16.x",
+    "styled-jsx": "^2.x"
+  }
 }

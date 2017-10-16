@@ -1,6 +1,22 @@
 # A Confirm, Alert and Prompts (CAPs) library for React
 > Dropin replacement for the browser's default and ugly alert, confirm and prompt dialogs for your React project
 
+```diff
+- This component is very very new and I would advise you to not use it as of now.
+```
+## Dependencies
+
+Apart from `react`, this component is dependent on `styled-jsx`
+
+```
+npm i react react-dom styled-jsx --save
+
+// OR
+
+yarn add react react-dom styled-jsx
+```
+
+
 ## Installing
 
 Install via NPM running:
@@ -12,7 +28,6 @@ npm i react-caps --save
 
 yarn add react-caps
 ```
-
 
 ## How to use
 
@@ -79,5 +94,3 @@ class ExampleComponent extends React.Component {
 
 export default ExampleComponent;
 ```
-
-This component is very new and APIs may change in near future.
