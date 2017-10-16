@@ -19,7 +19,7 @@ yarn add react react-dom styled-jsx
 
 ## Installing
 
-Install via NPM running:
+Install via NPM:
 
 ```
 npm i react-caps --save
@@ -60,7 +60,7 @@ Then, in a React component, use `caps.alert()`, `caps.confirm()` and `caps.promp
 
 ```js
 import React from "react";
-import caps from "react-caps";
+import { caps } from "react-caps";
 
 class ExampleComponent extends React.Component {
   showAlert = () => {
